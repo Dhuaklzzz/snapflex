@@ -48,7 +48,6 @@ main section {
   font-size: 18px;
   font-weight: 400;
   color: var(--gray);
-  font-style: medium;
   line-height: 28px;
 }
 
@@ -84,7 +83,6 @@ main section {
 
 .hero-img img {
   width: 100%;
-  height: auto;
 }
 
 .hero-img {
@@ -93,7 +91,6 @@ main section {
 
 * {
   margin: 0;
-  padding: 0;
 }
 
 .navbar {
@@ -108,5 +105,37 @@ main section {
   font-size: 14px;
   line-height: 16px;
   font-style: medium;
+  color: #686868;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: end;
+  gap: 32px;
+  width: 100%;
+}
+
+.register {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background: var(--dark);
+  padding: 16px 24px;
+  border: 2px solid var(--dark);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.register:hover {
+  background: transparent;
+  color: var(--dark);
+}
+
+.login {
+  font: inherit;
+  font-weight: 400;
+  font-size: 14px;
   color: #686868;
 }
